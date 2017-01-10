@@ -1,0 +1,7 @@
+#Mon Jan 09 13:49:24 CET 2017
+base.0=C\:\\AppServ\\www\\Android\\Adventure\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3509991d53a74942b28e499265d8b64f0950cb1f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\AppServ\\www\\Android\\Adventure\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_76df66d2aab1da31bbc90e7b158f3a36a302f44c\\classes.dex
+base.1=C\:\\AppServ\\www\\Android\\Adventure\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_76df66d2aab1da31bbc90e7b158f3a36a302f44c
+file.0=C\:\\AppServ\\www\\Android\\Adventure\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3509991d53a74942b28e499265d8b64f0950cb1f\\classes.dex

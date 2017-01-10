@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Adventure</string>
+    <string name="help">Esto será la ayuda</string>
+</resources>

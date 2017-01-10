@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.telefonica.talentum.adventure.MainActivity"
+    android:background="#42a5f5"
+    >
+
+
+    <TextView
+        android:id="@+id/activity_main_scene_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:text="Hola hola"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/activity_main_scene_image"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#90caf9"
+
+        />
+
+    <ImageButton
+        android:id="@+id/activity_main_scene_help"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_main_scene_drop"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/help"
+        android:background="@android:color/transparent"
+        android:layout_alignLeft="@+id/activity_main_scene_drop"
+        android:layout_alignStart="@+id/activity_main_scene_drop" />
+
+    <ImageView
+        android:id="@+id/activity_main_scene_image"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/adventure_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/activity_main_east_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow_right"
+        android:text="E"
+        android:background="@android:color/transparent"
+
+
+        android:layout_above="@+id/activity_main_south_button"
+        android:layout_toRightOf="@+id/activity_main_south_button"
+        android:layout_toEndOf="@+id/activity_main_south_button" />
+
+    <ImageButton
+        android:id="@+id/activity_main_north_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow_up"
+        android:text="N"
+        android:background="@android:color/transparent"
+
+
+        android:layout_above="@+id/activity_main_east_button"
+        android:layout_alignLeft="@+id/activity_main_look_button"
+        android:layout_alignStart="@+id/activity_main_look_button" />
+
+    <ImageButton
+        android:id="@+id/activity_main_look_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/look"
+        android:text="LOOK"
+        android:background="@android:color/transparent"
+
+        android:layout_below="@+id/activity_main_north_button"
+        android:layout_toRightOf="@+id/activity_main_west_button"
+        android:layout_toEndOf="@+id/activity_main_west_button" />
+
+    <ImageButton
+        android:id="@+id/activity_main_south_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow_down"
+        android:text="S"
+        android:background="@android:color/transparent"
+
+
+        android:layout_marginBottom="24dp"
+        android:layout_alignBottom="@+id/activity_main_scene_help"
+        android:layout_toRightOf="@+id/activity_main_west_button"
+        android:layout_toEndOf="@+id/activity_main_west_button" />
+
+    <ImageButton
+        android:id="@+id/activity_main_scene_inventory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/inventary"
+        android:background="@android:color/transparent"
+
+        android:layout_below="@+id/activity_main_scene_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp" />
+
+    <ImageButton
+        android:id="@+id/activity_main_scene_take"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/take"
+        android:background="@android:color/transparent"
+
+        android:layout_below="@+id/activity_main_scene_inventory"
+        android:layout_alignLeft="@+id/activity_main_scene_inventory"
+        android:layout_alignStart="@+id/activity_main_scene_inventory" />
+
+    <ImageButton
+        android:id="@+id/activity_main_scene_drop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop"
+        android:background="@android:color/transparent"
+
+        android:layout_below="@+id/activity_main_scene_take"
+        android:layout_alignLeft="@+id/activity_main_scene_take"
+        android:layout_alignStart="@+id/activity_main_scene_take" />
+
+    <ImageButton
+        android:id="@+id/activity_main_west_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow_left"
+        android:text="W"
+        android:background="@android:color/transparent"
+
+        android:layout_below="@+id/activity_main_north_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

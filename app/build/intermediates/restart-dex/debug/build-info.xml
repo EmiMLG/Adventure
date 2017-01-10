@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="19155817377035"
+    token="1712807754818300521"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="28" />
+    <task
+        name="instant-run-transform"
+        duration="51" />
+    <task
+        name="verifier"
+        duration="9" />
+
+    <artifact
+        location="C:\AppServ\www\Android\Adventure\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="18356453254113"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="C:\AppServ\www\Android\Adventure\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="19155817377035"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\AppServ\www\Android\Adventure\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
